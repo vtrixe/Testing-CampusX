@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="MyTest">
+        <classes>
+            <class name="MyTest">
+                <methods>
+                    <include name="testSignUpFlow"/>
+                    <include name="testLoginFromNavbar"/>
+                    <include name="testClickUserSetupLink"/>
+                    <include name="testCreateVideoChannel"/>
+                    <include name="testInviteNewMembers"/>
+                    <include name="testLogout"/>
+                    <include name="testJoinServerAsUser"/>
+                    <include name="testJoinVideoChannel"/>
+                    <include name="testConferenceRoomActions"/>
+                    <include name="testInvalidPasswords"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
